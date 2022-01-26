@@ -1,10 +1,20 @@
-version=0.9.3
-apt-get update && apt-get -y upgrade
-apt-get install gcc make git -y
-wget --no-check-certificate -O 3proxy-${version}.tar.gz https://github.com/z3APA3A/3proxy/archive/${version}.tar.gz
-tar xzf 3proxy-${version}.tar.gz
-cd 3proxy-${version}
-make -f Makefile.Linux
+# Подготавливаем инструментарий
+sudo su
+apt update && apt upgrade -y
+apt-get install -y build-essential
+# Скачиваем и распаковываем исходники
+cd ~
+wget https://github.com/z3APA3A/3proxy/archive/0.9.3.tar.gz
+tar xzf 0.9.3.tar.gz
+# Компилируем
+cd ~/3proxy-0.9.3
+sudo make -f Makefile.Linux
+# Устанавливаем
+sudo mkdir /etc/3proxy
+cd ~/3proxy-0.9.3/bin
+sudo cp 3proxy /usr/bin/
+sudo adduser --system --no-create-home --disabled-login --group proxy3
+
 cd src
 mkdir /etc/3proxy/
 mv 3proxy /etc/3proxy/
