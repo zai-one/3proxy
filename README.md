@@ -14,7 +14,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/zai-one/3proxy/mai
 ```
 3. Run script
 ```
-./3proxyinstaller.sh
+./3proxyinstall.sh
 ```
 4. Change Username and Password!
 ```
