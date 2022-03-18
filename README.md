@@ -10,7 +10,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/zai-one/3proxy/mai
 
 2. Make executable
 ```
- chmod +x 3proxyinstaller.sh
+ chmod +x 3proxyinstall.sh
 ```
 3. Run script
 ```
