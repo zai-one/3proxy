@@ -1,6 +1,6 @@
-<h1 align="center">How to install ipv4 HTTP proxy for own server. Install script 3proxy 0.9.3 for Debian & Ubuntu.</h1>
-
-<h3 align="center">Manual:</h3>
+<h1 align="center">Install script 3proxy 0.9.3 for Debian & Ubuntu.</h1>
+<h2 align="center">How to install ipv4 HTTP proxy for own server. </h3>
+<h3 align="left">Manual:</h3>
 
 1. Download script
 
