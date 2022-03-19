@@ -28,8 +28,8 @@ id proxy3
 ```
 nano /etc/3proxy/3proxy.cfg
 ```
-7. Start 3proxy
+7. Reboot
 ```
-/usr/bin/3proxy /etc/3proxy/3proxy.cfg
+sudo reboot
 ```
 Best Regards, <a href="http://zai.one">zai.one</a>
